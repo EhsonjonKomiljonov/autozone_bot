@@ -96,11 +96,11 @@ Ish vaqtimiz:
           resize_keyboard: true,
         },
       });
-    }
+    } 
 
     if (text == 'Bosh sahifa 🔚') {
       await bot.sendMessage(id, 'Bosh sahifa ❕', {
-        reply_markup: {
+        reply_markup: { 
           keyboard: [
             [{ text: 'Biz haqimizda 📑' }, { text: "Biz bilan bog'lanish 📞" }],
             [{ text: 'Manzilimiz 📍' }],
